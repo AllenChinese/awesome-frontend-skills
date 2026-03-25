@@ -1,0 +1,17 @@
+{
+  "skill_name": "node-sdk-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想写一个读取本地 JSON 配置文件并发送到远程服务器的 Node SDK，叫 json-sender。帮我初始化这个项目。",
+      "expected_output": "应该先生成 README.md 和 TECH_DOC.md 并在阶段一结束后停下来询问用户确认，不应直接写代码。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "文档已确认，继续生成 json-sender 的代码。",
+      "expected_output": "应该生成 package.json(含 pnpm/vitest/prettier)、tsconfig.json、.gitignore，以及 src/ 和 tests/ 骨架。",
+      "files": []
+    }
+  ]
+}
